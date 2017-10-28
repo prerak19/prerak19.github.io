@@ -24,8 +24,14 @@ h1 {
 h2 {
 	font-size: 40px;
     text-align: center;
-	color: #00008B;
-}
+	color: #000000;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 20px 0 25px 0;
+    border: 3px solid #000000;
+    border-right: none;
+    border-left: none;
+    
 h3 {
 	font-size: 28px;
 	color: #2d3033;
@@ -79,6 +85,8 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 400;
 	color: #6c7279;
+    
+}
 }
 ul, ol {
 	margin: 0;
@@ -341,7 +349,7 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #00aeda;
+	background-color: #e9e9e9;
 }
 .intro h3 {
 	color: #fff;
