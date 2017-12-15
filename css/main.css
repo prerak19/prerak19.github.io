@@ -352,6 +352,12 @@ ul li {
 	margin-top: 30px;
 	margin-bottom: 80px;
 }
+.banner-text a{
+    color: white;
+    font-size: 25px; 
+    border-style: solid;
+    border-color: black;
+}
 /* ==========================================================================
 	$intro
 ========================================================================== */
