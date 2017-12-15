@@ -31,6 +31,7 @@ h2 {
     border: 3px solid #000000;
     border-right: none;
     border-left: none;
+    font-family: sans-serif;
     
 h3 {
 	font-size: 28px;
@@ -50,8 +51,8 @@ h5 {
 	font-weight: 700;
 }
 .btn {
-	background-color: white;
-	color: #000000;
+	background-color: #3bc492;
+	color: #fff;
 	font-size: 13px;
 	font-weight: 600;
 	border: 0;
@@ -62,8 +63,8 @@ h5 {
 	text-transform: uppercase;
 }
 .btn:hover, .btn:focus {
-	background-color: #fff;
-	color: #000000;
+	background-color: #3d3d3d;
+	color: #fff;
 }
 .btn-large {
 	padding: 15px 40px;
@@ -98,7 +99,7 @@ ul li {
     color: darkred;
 }
 .section {
-	padding: 100px 0;
+	padding: 40px 0;
 }
 .no-padding {
 	padding: 0;
@@ -142,7 +143,11 @@ ul li {
 	background-color: #fff;
 }
 #header.fixed a {
-	color: #000;
+	color: grey;
+}
+#header.fixed a:hover {
+	color: black;
+    text-decoration: underline;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -174,7 +179,8 @@ ul li {
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #fff;
+	color: darkred;
+    text-decoration: underline;
 }
 .nav-toggle {
 	display: none;
@@ -365,7 +371,7 @@ ul li {
 	 Serives
 -------------------------------------------------------------------------------*/
 .service-section {
-	padding-top: 100px;
+	padding-top: 80px;
     background: linear-gradient(#67b26f , #4ca2cd );
 }
 .services {
@@ -623,23 +629,25 @@ padding:15px 30px 15px 30px;
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: left;
+    
 }
 .footer-top {
 	background-color: #181818;
-	padding-top: 20px;
+	padding-top: 10px;
+    height: auto;
 }
 .footer-bottom {
 	background-color: #313454;
-	padding: 5px 0;
+	padding: 3px 0;
 }
 .footer .footer-col {
-	margin-bottom:5px;
+	margin-bottom:0.5px;
 }
 .footer h5 {
 	color: #fff;
 }
 .footer h5 {
-	margin-bottom: 5px;
+	margin-bottom: 1px;
 }
 .footer p {
 	color: rgba(255, 255, 255, 0.25);
