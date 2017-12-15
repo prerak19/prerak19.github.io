@@ -1,0 +1,15 @@
+@media only screen and (max-width: 550px)
+{
+
+  .reslogo
+  {
+    width:85%;
+  }
+
+}@media only screen and (min-width: 550px)
+{
+.reslogo
+{
+    width:30%;
+}
+}
