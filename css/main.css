@@ -102,9 +102,9 @@ ul, ol {
 }
 ul li {
 	list-style: none;
-   font-size: 22px;
+    font-size: 22px;
     font-weight: 500;
-   font-family: "Times New Roman", sans-serif;
+   font-family: "Times New Roman",sans-serif;
     color: black;
 }
 .section {
